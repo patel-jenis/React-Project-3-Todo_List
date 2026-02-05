@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(67, 67, 67);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.53);
+  box-shadow: 0 0 19px 4px rgba(0, 0, 0, 0.37);
+}
+
+.btn-dark {
+    background-color: rgba(37, 37, 37, 0.887);
+    transition: all 0.2s linear;
+}
+
+.btn-dark:hover {
+    transform: translateY(-2px);
+}
+
+.form-control, .form-select {
+    background-color: rgb(237, 237, 237);
+    color: rgba(31, 31, 31, 0.872);
+    font-size: 17px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #999;
+    box-shadow: 0 0 0 .25rem rgba(142, 142, 142, 0.25);
+}
+
+.clr {
+    background-color: rgb(175, 175, 175);
+    transition: all 0.2s linear;
+}
+
+.clr:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.bg-warning {
+    background-color: #ffc10799 !important;
+}
+
+.bg-success {
+    background-color: #198754e6 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545e0 !important;
+}
+
+.btn.bg-danger {
+    transition: all 0.3s linear;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: 600;
+}
+.btn.bg-danger:hover {
+    background-color: transparent !important;
+    border: 2px solid #dc3545e0;
+    color: #dc3545e0;
+}
